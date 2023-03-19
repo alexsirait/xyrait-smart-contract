@@ -1,0 +1,15 @@
+{
+	"devDependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^2.0.2",
+		"hardhat": "^2.13.0"
+	},
+	"dependencies": {
+		"@openzeppelin/contracts": "^4.8.2"
+	},
+	"scripts": {
+		"deploy": "npx hardhat run --network localhost scripts/deploy.js",
+		"test": "npx hardhat run --network localhost scripts/interaction.js",
+		"compile": "npx hardhat compile",
+		"network": "npx hardhat node"
+	}
+}
